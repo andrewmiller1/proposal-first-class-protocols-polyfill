@@ -12,7 +12,7 @@
     "shim.js"
   ],
   "scripts": {
-    "build": "babel --out-dir dist/ src/",
+    "build": "cp --recursive src dist",
     "test": "node -r ./auto -e 'process.exit(typeof Protocol === \"function\" ? 0 : 1);'",
     "prepublishOnly": "npm run build"
   },
