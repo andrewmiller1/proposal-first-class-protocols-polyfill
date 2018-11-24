@@ -1,4 +1,4 @@
-import getPolyfill from './polyfill';
+import getPolyfill from './polyfill.js';
 
 let global = Function('return this')();
 
